@@ -12,6 +12,8 @@ mail = Mail()
 def create_app(configuration):
     app = Flask(__name__)
     app.config.from_object(configuration_options[configuration])
+   
+    print(app.config)
 
 
     print(app.config.get('SQLALCHEMY_DATABASE_URI'))

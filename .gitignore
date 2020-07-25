@@ -1,4 +1,3 @@
 *.pyc
-virtual/
+virt/
 __pycache__
-migrations/
