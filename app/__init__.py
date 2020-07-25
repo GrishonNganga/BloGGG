@@ -30,6 +30,10 @@ def create_app(configuration):
     def user_loader(user_id):
         return User.query.get(user_id)
     
+
+    from .requests import configure_request
+    configure_request(app)
+
     from .auth.views import auth as auth_blueprint
     from .views import app as app_blueprint
     from .pitches.views import pitch as pitch_blueprint

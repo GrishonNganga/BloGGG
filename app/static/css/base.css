@@ -2,24 +2,27 @@ body{
     font-size: 16px;
 }
 a{
-    color: initial;
+    color: gray;
 }
 a:hover{
-    color: #5df212;
+    color: black;
     text-decoration: none;
 }
 .join-btn{
-    background-color: #5df212;
+    background-color: black;
     color: white;
-    border-color: #5df212;
+    border-color: black;
     font-size: 16px;
 }
 .pitch-btn{
-    background-color: #5df212;
+    background-color: black;
     color: white;
-    border-color: #5df212;
+    border-color: black;
     font-size: 16px;
-
+}
+.pitch-btn:hover{
+    color: white;
+    background-color: black;
 }
 .logout-btn{
     background-color: red;

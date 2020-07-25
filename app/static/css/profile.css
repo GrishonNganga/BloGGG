@@ -16,10 +16,12 @@
     color: black;
 }
 
-.btn-success:hover, .btn-success:hover{
-    color: initial;
+.btn-success:hover{
+    color: white;
+    background-color: black;
+
 }
 .btn-success{
-    background-color: #5df212;
-    border-color: #5df212;
+    background-color: black;
+    border-color: black;
 }

@@ -3,6 +3,10 @@
     margin-left: 24%;
     margin-top: 50%;
 }
+.modal{
+    display: block;
+    top: 40%;
+}
 .top-main{
     margin-top: 10%;
 }

@@ -1,15 +1,10 @@
 .pitch{
-    border: 1px solid lightgray;
-    border-radius: 50%;
-    width: auto;
-    height: 300px;
-    padding-top: 55px;
-    padding-left: 2%;
-    padding-right: 2%;
+    
     font-size: 20px;
     margin-top: 4%;
-    text-align: center;
-    position: relative; 
+    padding: 20px;
+    /* text-align: center; */
+    /* position: relative;  */
 }
 .pitch a{
     width: auto;
@@ -40,17 +35,7 @@ a:hover{
         margin-left: 5%;
     }
     .pitch{
-        border: 1px solid lightgray;
-        border-radius: 50%;
-        width: auto;
-        height: 360px;
-        padding-top: 100px;
-        padding-left: 2%;
-        padding-right: 2%;
         font-size: 20px;
         margin-top: 4%;
-        margin-right: 15%;
-        text-align: center;
-        position: relative; 
     }
 }

@@ -8,9 +8,10 @@ class Config:
     MAIL_USERNAME : os.environ.get('MAIL_USERNAME')
     MAIL_PASSWORD : os.environ.get('MAIL_PASSWORD')
     MAIL_DEFAULT_SENDER : os.environ.get('MAIL_USERNAME')
+    QUOTE_API='https://quotes.rest/{}'
 
 class DevConfig(Config):
-    SQLALCHEMY_DATABASE_URI= os.environ.get('DATABASE_URL')
+    SQLALCHEMY_DATABASE_URI= os.environ.get('DATABASE_URI')
     DEBUG=True
    
 

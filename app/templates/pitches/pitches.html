@@ -8,9 +8,9 @@
 <div class="container-fluid">
     <div class="row pitches">
         {% for pitch in pitches %}
-        <div class="col-12 col-sm-4">
+        <div class="col-10">
             <a href="{{url_for('pitch.show_pitch', id= pitch['id'])}}">
-                <div class="pitch">
+                <div class="pitch card">
                     {{pitch['pitch']}}
                     <p class="mt-2 pitch-writer">By {{pitch['name']}}</p>
                 </div>

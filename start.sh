@@ -1,5 +1,4 @@
-export MAIL_USERNAME=<Email Address>
-export MAIL_PASSWORD=<Email Password>
-export DATABASE_URL=<Local DB URI>
-export DATABASE_URI=<Remote DB URI>
+export MAIL_USERNAME=
+export MAIL_PASSWORD=
+export DATABASE_URI=
 python manage.py server
