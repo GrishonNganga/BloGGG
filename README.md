@@ -1,13 +1,12 @@
-# Elevator Pitch
+# bloGGG
 
-This site allows users to upload one minute pitches and view, upvote and downvote other people's one minute pitches across different categories.
+This site allows writers to pour themselves out and write blogs and readers to read, engage and react to the blogs. Also shows an inspirational quote every time the site is loaded.
 
 #### By **Grishon Gikima**
 
 ## Description
 
-Members interact with other members by commenting, upvoting and downvoting other poeple's one minute pitches. Conversations can be started on other people's pitches' comment sections. 
-Members can view their profiles and see the pitches they themselves have contributed. 
+This site allows writers to pour themselves out and write blogs and readers to read, engage and react to the blogs. Also shows an inspirational quote every time the site is loaded.
 
 ## Setup/Installation Requirements
 
@@ -15,8 +14,8 @@ Members can view their profiles and see the pitches they themselves have contrib
 * Postgresql -> See https://www.postgresql.org/download/ to download for your platform of choice.
 
 ### Setup
-* Clone the repo `git clone https://github.com/GrishonNganga/Elevator-Pitch.git`
-* Move into the directory `cd Elevator-Pitch`
+* Clone the repo `git clone https://github.com/GrishonNganga/bloGGG.git`
+* Move into the directory `cd bloGGG`
 * Create a virtual environment `python -m venv virtual`
 * Open `start.sh` file and replace what's inside the <> with your email address, password and a `SQLALCHEMY_DATABASE_URI` from psql db created.\
 See more on how to construct `SQLALCHEMY_DATABASE_URI` here -> https://flask-sqlalchemy.palletsprojects.com/en/2.x/config/#connection-uri-format
@@ -41,7 +40,7 @@ There are no known bugs atm. Get in touch if you discover any.
 Reach out to me over email grishon.nganga01@gmail.com
 ### MIT License
 
-Copyright (c) 2020 Elevator Pitch
+Copyright (c) 2020 bloGGG
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
